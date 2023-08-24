@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# A simple example of handling GraphQL errors with [Raygun](https://raygun.com/?utm_source=google&utm_medium=cpc&utm_campaign=Search|Standard|AU+NZ|Brand&keyword=raygun&network=g&gad=1&gclid=Cj0KCQjw3JanBhCPARIsAJpXTx7eCB0PCdKhgRi78NhNNl_9YtVSRJdAbBl1x22BxfzkZrEqg1SrDmwaAr4bEALw_wcB)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This project shows an example of how you can collect relivant error and stack trace information from a graphql querry and how you can send it to Raygun. 
+- To use this project to send exceptions to your Raygun application, add you API key into index.js.
+- All of the relivant graphQL code can be found inside of App.js
 
-## Available Scripts
+## Build scripts
 
 In the project directory, you can run:
 
@@ -39,32 +41,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
